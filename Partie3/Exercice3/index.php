@@ -14,7 +14,7 @@ $counter = 0;
     <!-- Ici on vient afficher les variables PHP déclarées au dessus du doctype HTML -->
     <?php 
           while($counter <= 11){?>
-              <p> echo $months[$counter] </p> 
+              <p> <?php echo $months[$counter] ?> </p> 
               <?php $counter++;
           }?>
     
