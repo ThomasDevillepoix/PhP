@@ -14,7 +14,7 @@ $test = exo('Devillepoix', 'Thomas', 20);
     <?php
     echo $test;
 function exo($first, $last, $age) {
-    return "Bonjour $last $first tu as $age";
+    return "Bonjour $last $first tu as $age ans";
 };
 ?>  
 </body>

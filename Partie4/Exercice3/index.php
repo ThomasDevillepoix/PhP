@@ -14,16 +14,18 @@ $test = exo(10, 10);
     <?php
     echo $test;
 function exo($first, $second) {
+    $result = '';
     if ($first > $second) {
-    return 'Le premier nombre est plus grand';}
+    $result = 'Le premier nombre est plus grand';}
 
     else if ($first < $second) {
-    return 'Le premier nombre est le plus petit';
+    $result = 'Le premier nombre est le plus petit';
     }
 
     else {
-    return 'Les deux nombres sont identiques';
+    $result  = 'Les deux nombres sont identiques';
     }
+    
 };
 ?>  
 </body>
